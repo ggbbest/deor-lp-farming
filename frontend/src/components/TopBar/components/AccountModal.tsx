@@ -20,7 +20,7 @@ import Spacer from '../../Spacer'
 import Value from '../../Value'
 import {getEthChainInfo} from "../../../utils/getEthChainInfo";
 
-import imageDEOR from '../../../assets/img/logo.svg'
+import imageCeik from '../../../assets/img/logo.svg'
 
 const {
   ethscanType
@@ -47,19 +47,20 @@ const AccountModal: React.FC<ModalProps> = ({ onDismiss }) => {
         <div style={{ display: 'flex' }}>
           <StyledBalanceWrapper>
             <CardIcon>
-              <img src={imageDEOR} height="100" style={{ marginTop: -4 }} />
+              <img src={imageCeik} height="100" style={{ marginTop: -4 }} />
             </CardIcon>
             <StyledBalance>
-              <Value value={getBalanceNumber(erc20Balance, 10)} />
-              <Label text="DEOR ERC20 Balance" />
+              <Value value={getBalanceNumber(erc20Balance, 18)} />
+              <Label text="sCEIK Balance" />
             </StyledBalance>
           </StyledBalanceWrapper>
         </div>
 
         <Spacer />
         <Button
-          href={`https://${ethscanType}etherscan.io/address/${account}`}
-          text="View on Etherscan"
+          // href={`https://${ethscanType}scope.klaytn.com/address/${account}`}
+          href={`https://scope.klaytn.com/address/${account}`}
+          text="View on scopeklaytn"
           variant="secondary"
         />
         <Spacer />

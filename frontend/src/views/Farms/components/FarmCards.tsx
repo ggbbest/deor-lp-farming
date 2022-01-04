@@ -124,7 +124,8 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
         lpTokenAddress,
         account,
       )
-      setHarvestable(bnToDec(earned, 10)) // Should get decimals from contract or config
+      // setHarvestable(bnToDec(earned, 10)) // Should get decimals from contract or config
+      setHarvestable(bnToDec(earned, 18)) // Should get decimals from contract or config
     }
     if (yam && account) {
       fetchEarned()
@@ -148,7 +149,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
 
   return (
     <StyledCardWrapper>
-      {farm.tokenSymbol === 'SASHIMI' && <StyledCardAccent />}
+      {farm.tokenSymbol === 'CEIK' && <StyledCardAccent />}
       <Card>
         <CardContent>
           <StyledContent>
@@ -186,7 +187,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
                 {farm.wethAmount
                   ? (farm.wethAmount.toNumber() || 0).toLocaleString('en-US')
                   : '-'}{' '}
-                ETH
+                C4EI
               </span>
             </StyledInsight>
           </StyledContent>

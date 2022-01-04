@@ -1,0 +1,104 @@
+dev@ubuntu:~/www/farm.c4ei.net$ npm run migrate
+
+> deor-farm@0.1.0 migrate
+> rm -rf build && truffle migrate --reset
+
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/ERC20Mock.sol
+> Compiling ./contracts/Farm.sol
+> Compiling ./contracts/LPMock.sol
+> Compiling ./contracts/Migrations.sol
+> Compiling @openzeppelin/contracts/access/Ownable.sol
+> Compiling @openzeppelin/contracts/math/SafeMath.sol
+> Compiling @openzeppelin/contracts/token/ERC20/ERC20.sol
+> Compiling @openzeppelin/contracts/token/ERC20/IERC20.sol
+> Compiling @openzeppelin/contracts/token/ERC20/SafeERC20.sol
+> Compiling @openzeppelin/contracts/utils/Address.sol
+> Compiling @openzeppelin/contracts/utils/Context.sol
+> Compiling @openzeppelin/contracts/utils/EnumerableSet.sol
+> Artifacts written to /home/dev/www/farm.c4ei.net/build/contracts
+> Compiled successfully using:
+   - solc: 0.6.12+commit.27d51765.Emscripten.clang
+
+
+
+Starting migrations...
+======================
+> Network name:    'development'
+> Network id:      21004
+> Block gas limit: 8000000 (0x7a1200)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x0b401f7e943dab9b815981243b32fc37bcfadcbce901b27480218c67c6f1e3e3
+   > Blocks: 1            Seconds: 16
+   > contract address:    0x680Ae2982DAFA015954A6b3CDE912015e6EAE1cA
+   > block number:        442018
+   > block timestamp:     1640789813
+   > account:             0x66eC272Cf68967Ff821dB6Fd5AB8AE2Ed35014E4
+   > balance:             10010211.707972045
+   > gas used:            159195 (0x26ddb)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000159195 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.000159195 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'ERC20Mock'
+   ---------------------
+   > transaction hash:    0xfad4ef2db1e27064897178a58c93be24ffc6adb0c497ad40b576e212567e17ee
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x6335E94a01D21DA57e2AA5EBAdf1935A934A70EC
+   > block number:        442020
+   > block timestamp:     1640789853
+   > account:             0x66eC272Cf68967Ff821dB6Fd5AB8AE2Ed35014E4
+   > balance:             10010211.706751635
+   > gas used:            1178072 (0x11f9d8)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001178072 ETH
+
+
+   Deploying 'Farm'
+   ----------------
+   > transaction hash:    0x3e6addbb64683c03e2ad70424fe06e43b903b6f9f9f4faebf7d08f8cdf0aefea
+   > Blocks: 0            Seconds: 44
+   > contract address:    0x65382a57fe81421417EfEcfC8B917803623161D5
+   > block number:        442021
+   > block timestamp:     1640789856
+   > account:             0x66eC272Cf68967Ff821dB6Fd5AB8AE2Ed35014E4
+   > balance:             10010211.70471002
+   > gas used:            2041615 (0x1f270f)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.002041615 ETH
+
+
+   Deploying 'LPMock'
+   ------------------
+   > transaction hash:    0x6124bad4d6c53a94602c9f78c19b18eae78ab9e1dfa212c11dd65fb03034b7eb
+   > Blocks: 1            Seconds: 8
+   > contract address:    0xA751e1AF3CFaf5dEd055cEFfB79CAa4Ac0779Ef2
+   > block number:        442025
+   > block timestamp:     1640789936
+   > account:             0x66eC272Cf68967Ff821dB6Fd5AB8AE2Ed35014E4
+   > balance:             10010211.703199852
+   > gas used:            1410104 (0x158438)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001410104 ETH
+

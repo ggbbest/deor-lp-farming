@@ -17,22 +17,24 @@ const Nav: React.FC = () => {
     <StyledNav>
       <StyledLink
         target="_blank"
-        href={`https://${ethscanType}etherscan.io/token/${contractAddressesTemp.erc20[chainId]}#code`}
+        // href={`https://${ethscanType}scope.klaytn.com/token/${contractAddressesTemp.erc20[chainId]}#code`}
+        href={`https://scope.klaytn.com/token/${contractAddressesTemp.erc20[chainId]}#code`}
       >
-        ERC20 Contract
+        Contract
       </StyledLink>
       <StyledLink
         target="_blank"
-        href={`https://${ethscanType}etherscan.io/address/${contractAddressesTemp.farm[chainId]}#code`}
+        // href={`https://${ethscanType}scope.klaytn.com/address/${contractAddressesTemp.farm[chainId]}#code`}
+        href={`https://scope.klaytn.com/address/${contractAddressesTemp.farm[chainId]}#code`}
       >
         Farm Contract
       </StyledLink>
-      <StyledLink
+      {/* <StyledLink
         target="_blank"
         href={GITHUB}
       >
         <img src={githubLogo} />
-      </StyledLink>
+      </StyledLink> */}
     </StyledNav>
   )
 }

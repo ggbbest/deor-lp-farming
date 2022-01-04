@@ -25,6 +25,9 @@ export const getERC20Address = (farm) => {
 export const getWethContract = (farm) => {
   return farm && farm.contracts && farm.contracts.weth
 }
+export const getCeikContract = (farm) => {
+  return farm && farm.contracts && farm.contracts.erc20
+}
 
 export const getFarmContract = (farm) => {
   return farm && farm.contracts && farm.contracts.farm
@@ -57,7 +60,7 @@ export const getFarms = (farm) => {
           tokenAddress,
           tokenSymbol,
           tokenContract,
-          earnToken: 'deor',
+          earnToken: 'ceik',
           earnTokenAddress: farm.contracts.erc20.options.address,
           icon,
           pool,

@@ -13,7 +13,7 @@ import Value from '../../../components/Value'
 import useEarnings from '../../../hooks/useEarnings'
 import useReward from '../../../hooks/useReward'
 
-import imageDEOR from '../../../assets/img/logo.svg'
+import imageCeik from '../../../assets/img/logo.svg'
 
 import {
   getDisplayBalance,
@@ -34,14 +34,14 @@ const Harvest: React.FC<HarvestProps> = ({ pid }) => {
       <CardContent>
         <StyledCardContentInner>
           <StyledCardHeader>
-            <CardIcon><img src={imageDEOR} height="50" style={{ marginTop: -4 }} /></CardIcon>
-            <Value value={getBalanceNumber(earnings, 10)} decimals={3} />
-            <Label text="DEOR Earned" />
+            <CardIcon><img src={imageCeik} height="50" style={{ marginTop: -4 }} /></CardIcon>
+            <Value value={getBalanceNumber(earnings, 18)} decimals={3} />
+            <Label text="sCEIK Earned" />
           </StyledCardHeader>
           <StyledCardActions>
             <Button
               disabled={!earnings.toNumber() || pendingTx}
-              text={pendingTx ? 'Collecting DEOR' : 'Harvest'}
+              text={pendingTx ? 'Collecting CEIK' : 'Harvest'}
               variant={'secondary'}
               border
               onClick={async () => {

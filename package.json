@@ -1,5 +1,5 @@
 {
-  "name": "deor-farm",
+  "name": "ceik-farm",
   "version": "0.1.0",
   "main": "truffle.js",
   "directories": {
@@ -9,7 +9,9 @@
     "test": "scripts/test.sh",
     "dev": "truffle migrate --network kovan --reset",
     "devverify": "truffle run verify Farm --network kovan",
-    "migrate": "rm -rf build && truffle migrate --network mainnet --reset",
+    "migrate": "rm -rf build && truffle migrate --reset",
+    "migrateBK": "rm -rf build && truffle migrate --network mainnet --reset",
+    "c4ei": "rm -rf build && truffle migrate --network c4ei --reset",
     "verify": "truffle run verify Farm --network mainnet"
   },
   "license": "ISC",

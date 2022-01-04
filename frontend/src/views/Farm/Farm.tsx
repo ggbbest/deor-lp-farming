@@ -92,12 +92,12 @@ const Farm: React.FC<FarmProps> = ({ farmId }) => {
                 justifyContent: 'center',
               }}
           >
-            <Button
-                text="Open Uniswap Pool"
+            {/* <Button
+                text="Open klayswap Pool"
                 backgroundColor='#ed007a'
                 size="xs"
-                href='https://info.uniswap.org/token/0x63726dAe7C57d25e90ec829ce9a5C745Ffd984d3'
-            />
+                href='https://klayswap.com/exchange/pool/detail/0x50e746edaa283365136ed86a4e5dfddc6cd3cf9e'
+            /> */}
         </div>
         <Spacer size="lg" />
       </StyledFarm>

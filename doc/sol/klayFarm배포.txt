@@ -1,0 +1,62 @@
+﻿web3.personal.unlockAccount("0xad70df6bd78734721f42cd8ccace42b25d83aa65","비번",600);
+--POOL 0x395A3BE5A29e45f534d24C796dDd2F98eE1aE197
+
+Transaction decoding is not available for chainId 21004
+Add Liquidity (Address, Address, Uint256, Uint256, Uint256, Uint256, Address, Uint256)
+https://exp.c4ei.net/tx/0x0d0fb291effc7edd60ee0930e2786f7de48fef67ca62e53d3c11961f35b34681
+https://exp.c4ei.net/tx/0x0a3e69bbca59543747747f733458fd10acd7bf7a911544ff651e546dcd5c3f37
+
+/home/dev/c4eiswap/swap.c4ei.net/local_modules/swap-sdk/src/abis/CroDefiSwapFactory.json
+============================================================
+address public CEIK         = 0x50E746EdaA283365136ed86a4E5DfDdc6CD3cF9e; //klay-ceik 소수점 18 자리
+address public burnAddress  = 0x000000000000000000000000000000000000dEaD;
+address public wallet       = 0x147e8C747dF1496E3d3dEeCf4FD8fDb8CD3fee90; // Ceik Team Wallet
+uint256 public ownerCEIKReward = 138000; // 12%
+uint256 public CEIKMaxSupply = 90000000e18; // 90000 000 CEIK;
+uint256 public CEIKPerBlock = 3000000000000000000;// 3 CEIK tokens created per block
+uint256 public startBlock = 79040000;
+============================================================
+
+
+Network Name: Klaytn
+Klatyn RPC URL: https://public-node-api.klaytnapi.com/v1/cypress
+Klaytn ChainID: 8217
+Symbol:  KLAY
+Block Explorer URL: https://scope.klaytn.com
+
+-------------------- 2021-12-30 
+
+Metadata of "klayfarm" was published successfully.
+Farm.sol : 
+ipfs://QmVKoaNxKeQShkWoFUJgMJFoXFW35k48M8TvF2HDt35dk3
+metadata.json : 
+ipfs://QmSQo6JVGPaEMbSUBPXrcjvTeex12WDzYkdTLW1FDyk9KB
+
+
+0xd9145CCE52D386f254917e481eB44e9943F39138
+
+status	true Transaction mined and execution succeed
+transaction hash	0x55da8499c1e0c4c934a86b881e8e1a349267c21f0eae559f3d7c358bf8099966
+from	0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
+to	KLAYFarm.(constructor)
+gas	80000000 gas
+transaction cost	2592543 gas 
+execution cost	2592543 gas 
+hash	0x55da8499c1e0c4c934a86b881e8e1a349267c21f0eae559f3d7c358bf8099966
+input	0x608...c0033
+decoded input	{}
+decoded output	 - 
+logs	[
+	{
+		"from": "0xd9145CCE52D386f254917e481eB44e9943F39138",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"
+		}
+	}
+]
+val	0 wei

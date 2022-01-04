@@ -28,7 +28,7 @@ ETHERSCAN_API_KEY="..."
 ```
 
 * Deployment to rinkeby is done via [Infura](https://infura.io/).
-* Create an [Etherscan API key](https://etherscan.io/myapikey) for contract verification.
+* Create an [Etherscan API key](https://scope.klaytn.com/myapikey) for contract verification.
 
 _Forks of this project should also modify `config.json`. Decimals aren't considered in the configuration._
 
@@ -146,3 +146,24 @@ The `frontend` folder contains the frontend application that displays the uniswa
 
 _Note that the frontend is specifically styled and configured for DEOR. You need to modify it to use it for a
 different project._  
+
+
+
+1. Delete package-lock.json (not package.json!) and/or yarn.lock in your project folder.
+2. Delete node_modules in your project folder.
+3. Remove "webpack" from dependencies and/or devDependencies in the package.json file in your project folder.
+4. Run npm install or yarn, depending on the package manager you use.
+
+
+
+
+farm.c4ei.net/frontend/src/utils/getEthChainInfo.ts
+    --> chainID
+farm.c4ei.net/frontend/public/manifest.json
+    --> token info
+farm.c4ei.net/frontend/src/views/Farms/components/FarmCards.tsx
+    setHarvestable(bnToDec(earned, 18))
+farm.c4ei.net/frontend/src/components/TopBar/components/AccountModal.tsx
+    <Value value={getBalanceNumber(erc20Balance, 18)} />
+farm.c4ei.net/frontend/src/views/Farm/components/Harvest.tsx
+    <Value value={getBalanceNumber(earnings, 18)} decimals={3} />

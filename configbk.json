@@ -1,0 +1,64 @@
+{
+  "c4ei": {
+    "erc20": {
+      "name": "C4ei Farm Token",
+      "symbol": "CFT",
+      "decimals": 10,
+      "supply": "100000000000"
+    },
+    "rewardPerBlock": "10000000",
+    "delay": 30,
+    "fund": "50000000000",
+    "lp": [
+      {
+        "name": "CFT LP Mock",
+        "symbol": "LP CFT",
+        "decimals": 18,
+        "allocPoint": 120
+      }
+    ]
+  },
+  "default": {
+    "erc20": {
+      "address": "0x18814b01b5CC76F7043E10fd268cc4364dF47dA0"
+    },
+    "rewardPerBlock": "30000000000",
+    "delay": 30,
+    "fund": "100000000000000000",
+    "lp": [
+      {
+        "address": "0x50e746edaa283365136ed86a4e5dfddc6cd3cf9e",
+        "allocPoint": 120
+      }
+    ]
+  },
+  "kovan": {
+    "erc20": {
+      "address": "0xAdA673d512415c98e04C068A3b50022B2696cCCE"
+    },
+    "rewardPerBlock": "1000000000",
+    "delay": 30,
+    "fund": "100000000000000000",
+    "lp": [
+      {
+        "address": "0x2e4c125f3c2baefd71c9100601caa13a198cc008",
+        "allocPoint": 120
+      }
+    ]
+  },
+  "mainnet": {
+    "erc20": {
+      "address": "0x18814b01b5CC76F7043E10fd268cc4364dF47dA0"
+    },
+    "rewardPerBlock": "40000000000",
+    "delay": 30,
+    "fund": "100000000000000000",
+    "lp": [
+      {
+        "address": "0x50e746edaa283365136ed86a4e5dfddc6cd3cf9e",
+        "allocPoint": 120
+      }
+    ]
+  },
+  "test": false
+}

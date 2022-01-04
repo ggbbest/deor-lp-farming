@@ -26,7 +26,7 @@ import { getBalanceNumber } from '../../../utils/formatBalance'
 import DepositModal from './DepositModal'
 import WithdrawModal from './WithdrawModal'
 
-import imageUniswap from '../../../assets/img/logo-uniswap.svg'
+import imageUniswap from '../../../assets/img/logo-klayswap.svg'
 
 interface StakeProps {
   lpContract: Contract
@@ -94,6 +94,12 @@ const Stake: React.FC<StakeProps> = ({ lpContract, pid, tokenName }) => {
               />
             ) : (
               <>
+              {/* <Button
+                text="Deposit"
+                size="xs"
+                href={`https://klayswap.com/exchange/pool/detail/${lpContract.options.address}`}
+              /> <br/> */}
+
                 <Button
                   text="Deposit"
                   variant={'tertiary'}

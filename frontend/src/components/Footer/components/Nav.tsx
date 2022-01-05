@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import {contractAddresses} from '../../../farm/lib/constants';
 import {getEthChainInfo} from "../../../utils/getEthChainInfo";
-import githubLogo from '../../../assets/img/github.png'
-import {GITHUB} from '../../../constants/config';
+// import githubLogo from '../../../assets/img/github.png'
+// import {GITHUB} from '../../../constants/config';
 
 const {
     ethscanType,
@@ -18,14 +18,16 @@ const Nav: React.FC = () => {
       <StyledLink
         target="_blank"
         // href={`https://${ethscanType}scope.klaytn.com/token/${contractAddressesTemp.erc20[chainId]}#code`}
-        href={`https://scope.klaytn.com/token/${contractAddressesTemp.erc20[chainId]}#code`}
+        // href={`https://scope.klaytn.com/token/${contractAddressesTemp.erc20[chainId]}#code`}
+        href={`https://exp.c4ei.net/token/${contractAddressesTemp.erc20[chainId]}#code`}
       >
         Contract
       </StyledLink>
       <StyledLink
         target="_blank"
         // href={`https://${ethscanType}scope.klaytn.com/address/${contractAddressesTemp.farm[chainId]}#code`}
-        href={`https://scope.klaytn.com/address/${contractAddressesTemp.farm[chainId]}#code`}
+        // href={`https://scope.klaytn.com/address/${contractAddressesTemp.farm[chainId]}#code`}
+        href={`https://exp.c4ei.net/address/${contractAddressesTemp.farm[chainId]}#code`}
       >
         Farm Contract
       </StyledLink>

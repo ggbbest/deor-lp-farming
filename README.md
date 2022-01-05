@@ -167,3 +167,19 @@ farm.c4ei.net/frontend/src/components/TopBar/components/AccountModal.tsx
     <Value value={getBalanceNumber(erc20Balance, 18)} />
 farm.c4ei.net/frontend/src/views/Farm/components/Harvest.tsx
     <Value value={getBalanceNumber(earnings, 18)} decimals={3} />
+
+
+
+node_modules/.bin/truffle test --network c4ei test/Farm.test.js
+
+
+farm.c4ei.net/migrations/2_deploy_contracts.js
+
+truffle compile
+truffle migrate --network c4ei
+
+/home/dev/www/farm.c4ei.net/frontend/src/constants/config.ts
+export const BASIC_TOKEN = 'CFT';
+
+/home/dev/www/farm.c4ei.net/frontend/src/farm/utils.js
+earnToken: 'ceik', --> earnToken: 'cft',

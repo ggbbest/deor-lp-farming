@@ -2,20 +2,28 @@
   "c4ei": {
     "erc20": {
       "name": "C4ei Farm Token",
-      "symbol": "sCEIK",
+      "symbol": "CFT",
       "decimals": 18,
       "supply": "100000000000000000000000000"
     },
-    "rewardPerBlock": "10000000",
+    "rewardPerBlock": "4000000000000000000",
     "delay": 30,
-    "fund": "50000000000",
+    "fund": "10000000000000000000000000",
     "lp": [
       {
-        "name": "sCEIK LP Mock",
+        "name": "C4ei Farm LP",
         "symbol": "LP CFT",
         "decimals": 18,
         "allocPoint": 120
       }
     ]
+  }
+  ,
+  "mainnet_bak": {
+    "erc20": { "address": "0x63726dAe7C57d25e90ec829ce9a5C745Ffd984d3"},
+    "rewardPerBlock": "40000000000",
+    "delay": 30,
+    "fund": "100000000000000000",
+    "lp": [ { "address": "0x856e90282961c0e7f6693fd2f62b35d5df9783cf", "allocPoint": 120 } ]
   }
 }

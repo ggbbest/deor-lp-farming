@@ -7,9 +7,9 @@ module.exports = {
             host: "192.168.1.185",     // Localhost (default: none)
             port: 21004,            // Standard Ethereum port (default: none)
             network_id: 21004,       // Any network (default: none)
-            from: '0xAd70df6Bd78734721F42CD8cCACe42b25D83Aa65',
-            gas: 8500000,           // Gas sent with each transaction (default: ~6700000)
-            gasPrice: 20000000000,  // 20 gwei (in wei) (default: 100 gwei)
+            // from: '0xAd70df6Bd78734721F42CD8cCACe42b25D83Aa65',
+            // gas: 8500000,           // Gas sent with each transaction (default: ~6700000)
+            // gasPrice: 20000000000,  // 20 gwei (in wei) (default: 100 gwei)
             // from: <address>,        // Account to send txs from (default: accounts[0])
             websocket: false        // Enable EventEmitter interface for web3 (default: false)
             // host: "localhost",

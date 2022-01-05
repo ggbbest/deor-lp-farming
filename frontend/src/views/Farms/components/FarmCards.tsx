@@ -149,7 +149,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
 
   return (
     <StyledCardWrapper>
-      {farm.tokenSymbol === 'CEIK' && <StyledCardAccent />}
+      {farm.tokenSymbol === 'CFT' && <StyledCardAccent />}
       <Card>
         <CardContent>
           <StyledContent>
@@ -187,7 +187,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
                 {farm.wethAmount
                   ? (farm.wethAmount.toNumber() || 0).toLocaleString('en-US')
                   : '-'}{' '}
-                C4EI
+                WC4EI
               </span>
             </StyledInsight>
           </StyledContent>

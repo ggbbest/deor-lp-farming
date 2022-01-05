@@ -51,7 +51,7 @@ const AccountModal: React.FC<ModalProps> = ({ onDismiss }) => {
             </CardIcon>
             <StyledBalance>
               <Value value={getBalanceNumber(erc20Balance, 18)} />
-              <Label text="sCEIK Balance" />
+              <Label text="CFT Balance" />
             </StyledBalance>
           </StyledBalanceWrapper>
         </div>
@@ -59,8 +59,8 @@ const AccountModal: React.FC<ModalProps> = ({ onDismiss }) => {
         <Spacer />
         <Button
           // href={`https://${ethscanType}scope.klaytn.com/address/${account}`}
-          href={`https://scope.klaytn.com/address/${account}`}
-          text="View on scopeklaytn"
+          href={`https://exp.c4ei.net/address/${account}`}
+          text="View on c4ei"
           variant="secondary"
         />
         <Spacer />

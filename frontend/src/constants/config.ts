@@ -1,2 +1,2 @@
-export const BASIC_TOKEN = 'CEIK';
-export const GITHUB = 'https://github.com/computercybersecurity/DEORPOOL';
+export const BASIC_TOKEN = 'CFT';
+// export const GITHUB = 'https://github.com/computercybersecurity/DEORPOOL';

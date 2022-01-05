@@ -1,0 +1,57 @@
+truffle compile
+truffle migrate --network c4ei
+
+
+Starting migrations...
+======================
+> Network name:    'c4ei'
+> Network id:      21004
+> Block gas limit: 8000000 (0x7a1200)
+
+
+2_deploy_contracts_bak.js
+=========================
+
+   Deploying 'ERC20Mock' --> CFT 90,000,000 (C4ei Farm Token)
+   ---------------------
+   > transaction hash:    0x7c39693a544042426c4e98e4020b35c71bb0ccff917923a8481953f501d2c153
+   > Blocks: 0            Seconds: 12
+   > contract address:    0xE449b77f37F9721E0DdE586D5D587213BD34308A
+   > block number:        482992
+   > block timestamp:     1641307525
+   > account:             0xAd70df6Bd78734721F42CD8cCACe42b25D83Aa65
+   > balance:             83066749710949834.381059486967521536
+   > gas used:            1178108 (0x11f9fc)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001178108 ETH
+
+
+   Deploying 'Farm'
+   ----------------
+   > transaction hash:    0xbc853c9fe60bcd19ad2652fb372b5c07580c71a1b78b0f074e7dd086f1708a9e
+   > Blocks: 0            Seconds: 4
+   > contract address:    0xa24382EdFbF381145D1678D08e31cd1e257ABA3A
+   > block number:        482993
+   > block timestamp:     1641307546
+   > account:             0xAd70df6Bd78734721F42CD8cCACe42b25D83Aa65
+   > balance:             83066749710949836.381059486967521536
+   > gas used:            2041651 (0x1f2733)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.002041651 ETH
+
+
+   Deploying 'LPMock' --> LP CFT (C4ei Farm LP)
+   ------------------
+   > transaction hash:    0xfced385c9ab92d333106ee363d84b56c7e46ce8e503fb2a1986ab737518422f0
+   > Blocks: 0            Seconds: 8
+   > contract address:    0x668EAB6dF4A9E41C842878660406666B4b443859
+   > block number:        483000
+   > block timestamp:     1641307566
+   > account:             0xAd70df6Bd78734721F42CD8cCACe42b25D83Aa65
+   > balance:             83066749710949850.381059486967521536
+   > gas used:            1410092 (0x15842c)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001410092 ETH

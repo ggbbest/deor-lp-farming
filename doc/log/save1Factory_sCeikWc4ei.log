@@ -1,0 +1,16 @@
+   Replacing 'UniswapV2Factory'
+   ----------------------------
+   > transaction hash:    0x8307ff91799df07994e2bf58c64fc2d15b03d1f4c223a5edb57362722c5413d8
+   > Blocks: 2            Seconds: 4
+   > contract address:    0xa5a06Fb816Ddf67D8dF3651f9462C9dc5954b19e
+   > block number:        482370
+   > block timestamp:     1641299572
+
+   
+   Replacing 'UniswapV2Router02'
+   -----------------------------
+   > transaction hash:    0xe28ecfcce95d03406835c1705c2b4ade03cf7f5a198a14f34d8777e4f4fc470c
+   > Blocks: 1            Seconds: 8
+   > contract address:    0xCd041b639b046191C96A32831D726EFcf5b8fbDC
+   > block number:        482656
+   
